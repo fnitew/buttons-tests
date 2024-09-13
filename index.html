@@ -32,6 +32,19 @@
     font-weight: bold;
     font-size: 15px;
 }</style>
-<button class="subscribe-button">SUBSCRIBE</button>
-<button class="join-button">JOIN</button>
-<button class="tweet">Tweet</button>
+<button onclick="subbed()" class="subscribe-button">SUBSCRIBE</button>
+<button onclick="joind()" class="join-button">JOIN</button>
+<button onclick="yeye()" class="tweet">Tweet</button>
+
+<script>
+    function yeye() {
+      alert("You tweeted!");
+    }
+    function joind() {
+        alert("You joined!")
+    }
+    function subbed( ) {
+        alert("You subscribed!")
+    }
+
+    </script>
